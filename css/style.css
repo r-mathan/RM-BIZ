@@ -1,0 +1,100 @@
+.container{
+    width: 1150px;
+    margin:0 auto;
+}
+h1{
+    font-size: 20px;
+}
+
+
+/*QUICK LINKS*/
+#quick-links{
+    background-color: brown;
+    height: 39px;
+}
+
+/*HEADER*/
+#header{
+    background-color: #33209f;
+    height: 90px;  
+}
+/*WELCOME*/
+#welcome{
+    background-color: yellow;
+    height: 428px;   
+}
+/*HIGHLITS*/
+#highlights{
+    background-color: yellowgreen;
+    height: 356px;   
+}
+/*ABOUT*/
+#about{
+    background-color: aqua;
+    height: 793px;
+}   
+/*SKILLS*/
+#skills{
+    height: 250px;
+    background-color: orange;
+}
+/*STATISTICS*/
+#statistics{
+    background-color: green;
+    height: 264px;     
+}
+/*CLIENT*/
+#client{
+    background-color: violet;
+    height: 99px;
+}
+/*SERVICES*/
+#services{
+    background-color: springgreen;
+    height: 970px;  
+}
+/*TESTIMONIAL*/
+#testimonial{
+    background-color: gray;
+    height: 424px;
+}
+/*PORTFOLIO*/
+#portfolio{
+    background-color: sienna;
+    height: 1398px;
+}
+/*TEAM*/
+#team{
+    background-color: dodgerblue;
+    height: 648px;
+}
+/*PRICING*/
+#pricing{
+    background-color: darkslategray;
+    height: 700px;
+}
+/*F.A.Q*/
+#faq{
+    background-color: tan;
+    height: 638px;
+}
+/*CONTACT*/
+#contact{
+    background-color: slategray;
+    height: 859px;
+}
+/*NEWS LETTER*/
+#news-letter{
+    background-color: sienna;
+    height: 234px;
+}
+/*FOOTER*/
+#footer{
+    background-color: indigo;
+    height: 327px;
+}
+/*LEGAL*/
+#legal{ 
+    background-color: orange;
+    height: 88px;
+}
