@@ -1,5 +1,10 @@
+body{
+    background-image: url(./img/full-web.png);
+    background-size: 1536px;
+    height: 8981px;
+}
 .container{
-    width: 1150px;
+    width: 1140px;
     margin:0 auto;
 }
 h1{
@@ -9,92 +14,306 @@ h1{
 
 /*QUICK LINKS*/
 #quick-links{
-    background-color: brown;
-    height: 39px;
+    background-color: #a52a2ab8;
+    height: 41.5px;  
 }
 
 /*HEADER*/
 #header{
-    background-color: #33209f;
-    height: 90px;  
+    background-color: #33209f87;
+    height: 97px;
+    
 }
+
 /*WELCOME*/
 #welcome{
-    background-color: yellow;
-    height: 428px;   
+    background-color: #ffff008f;
+    height: 457px;
+       
 }
+
 /*HIGHLITS*/
 #highlights{
-    background-color: yellowgreen;
-    height: 356px;   
+    background-color: #9acd321f;
+    height: 383px;
 }
+#highlights .container{
+    padding: 63px 0px;  
+}
+#highlights .f-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 44px;   
+}
+#highlights .f-item{
+    background-color: white;
+    flex-basis: 18%;
+    height:206px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 9px -5px;
+}
+#highlights h1{
+    padding-top: 30px;
+}
+#highlights p{
+    line-height: 23px;
+    padding-top: 22px;
+}
+#highlights i{
+    padding: 10px 0px;
+    size: 25px;
+}
+
 /*ABOUT*/
 #about{
-    background-color: aqua;
-    height: 793px;
-}   
+    background-color: #00ffff36;
+    height: 847px;
+    
+}  
+
 /*SKILLS*/
 #skills{
-    height: 250px;
-    background-color: orange;
+    height: 270px;
+    background-color: #ffa50078;
+    
 }
+
 /*STATISTICS*/
 #statistics{
-    background-color: green;
-    height: 264px;     
+    background-color: #00800073;
+    height: 285px;
+         
 }
+
 /*CLIENT*/
 #client{
-    background-color: violet;
+    background-color: #ee82ee6e;
     height: 99px;
+    
 }
+
 /*SERVICES*/
 #services{
-    background-color: springgreen;
-    height: 970px;  
+    background-color: #00ff7f4d;
+    height: 1042px;
 }
+#services .section-title{
+    text-align: center;
+    padding: 39px 0px 0px 0px;
+}
+#services .section-title h1{
+    background-color: black;
+    padding: 5px 10px;
+    margin: 28px 533px 19px 533px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+#services .section-title h2{
+    font-size: 35px;
+}
+#services .section-title h3{
+    font-size: 18px;
+    padding: 21px 296px;
+    text-align: center;
+    line-height: 23px;
+}
+#services .f-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+#services .f-items{
+    width: 347px;
+    margin: 15px;
+    padding: 85px 0px;
+    box-shadow: 0 0 5px -2px;
+}
+#services h4{
+    padding: 10px;
+    font-size: 24px;
+}
+#services h5{
+    padding: 10px;
+    font-size: 16px;
+}
+#services i{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#services .section-content{
+    text-align: center;
+}
+
+
 /*TESTIMONIAL*/
 #testimonial{
-    background-color: gray;
-    height: 424px;
+    background-color: #8080807a;
+    height: 454px;
+    
 }
+
 /*PORTFOLIO*/
 #portfolio{
-    background-color: sienna;
-    height: 1398px;
+    background-color: #a0522d7d;
+    height: 1497px;
+    
 }
+
 /*TEAM*/
 #team{
-    background-color: dodgerblue;
-    height: 648px;
+    background: #1e90ff66;
+    height: 696px;   
 }
+#team .section-title{
+    padding: 40px 0px;
+    text-align: center;
+}
+#team .section-title h1{
+    background-color: black;
+    padding: 5px 10px;
+    margin: 15px 533px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+#team .section-title h2{
+    font-size: 35px;
+}
+#team .section-title h3{
+    font-size: 17px;
+    padding: 20px 296px;
+    text-align: center;
+}
+#team .f-container{
+    display: flex;
+    
+}
+#team .f-items{
+    background-color: white;
+    height: 365px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px -6px;
+}
+#team img{
+    width: 280px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   
+}
+#team .section-content h1{
+    font-size: 23px;
+    padding: 18px 0px 8px 12px;
+}
+#team .section-content h2{
+    font-size: 13px;
+    padding: 0px 0px 8px 12px;
+}
+
+
 /*PRICING*/
 #pricing{
-    background-color: darkslategray;
-    height: 700px;
+    background-color: #2f4f4f80;
+    height: 748px;
+    
 }
+
 /*F.A.Q*/
 #faq{
-    background-color: tan;
-    height: 638px;
+    background-color: #d2b48c82;
+    height: 685px;
+    
 }
+
 /*CONTACT*/
 #contact{
-    background-color: slategray;
-    height: 859px;
+    background-color: #70809069;
+    height: 921px;
+    
 }
+
 /*NEWS LETTER*/
 #news-letter{
-    background-color: sienna;
-    height: 234px;
+    background-color: #a0522d70;
+    height: 246px;    
 }
+#news-letter .section-nl{
+    text-align: center;
+    padding: 30px 0px;
+    line-height: 52px;
+}
+#news-letter h1{
+    font-size: 30px;
+}
+#news-letter h2{
+    padding-bottom: 10px;
+}
+#news-letter form{
+    font-size: 20px;
+}
+#news-letter input{
+    /*padding: 13px 195px;*/
+}
+#news-letter a{
+    color: blanchedalmond;
+    background-color: black;
+    /*padding: 10px 21px 15px 21px;*/
+}
+
 /*FOOTER*/
 #footer{
-    background-color: indigo;
-    height: 327px;
+    background-color: #4b008273;
 }
+#footer .f-container{
+    display: flex;
+    padding: 64px 0px;
+}
+#footer .f-container .f-item{
+    flex-basis: 25%;
+}
+#footer .f-container .f-item ul{
+    list-style-type: none;
+}
+#footer .size-a ul li{
+    font-size: 16px;
+    line-height: 23px;
+}
+#footer .size-b ul li{
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+#footer h1{
+    font-size: 24px;
+    padding-bottom: 9px;
+}
+#footer h2{
+    font-size: 18px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+#footer p{
+    padding: 9px 0px 29px 0px;
+    line-height: 25px;
+}
+#footer i{
+    padding-right: 6px;
+}
+
 /*LEGAL*/
 #legal{ 
-    background-color: orange;
-    height: 88px;
+    background-color: #ffa50073;
+   
+}
+#legal .f-container{
+    display: flex;
+    justify-content: space-between  ;
+}
+#legal .f-item{
+    padding: 35px 0px;
 }
