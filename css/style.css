@@ -14,23 +14,102 @@ h1{
 
 /*QUICK LINKS*/
 #quick-links{
-    background-color: #a52a2ab8;
+    background-color: #106aee;
+    color: #fff;
     height: 41.5px;  
 }
+#quick-links .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#quick-links .f-item{
+    padding: 10px 0px;
+}
+#quick-links .f-item i{
+    padding: 0px 9px;
+    font-size: 14px;
+}
+#quick-links .f-item a{
+    padding: 0px 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
 
 /*HEADER*/
 #header{
-    background-color: #33209f87;
-    height: 97px;
-    
+    background-color: #fff;
+    height: 97px;   
 }
+#header .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#header .f-item{
+    padding: 35px 0px;
+    color: #222222;
+}
+#header .f-item h1{
+    font-size: 34px;
+}
+#header .f-item h1 span{
+    color: #106eea;
+}
+#header .f-item .nav-bar{
+    display: flex;
+}
+#header .f-item .nav-bar .nav-item{
+    padding: 0px 15px;
+    font-size: 17px;
+}
+
 
 /*WELCOME*/
 #welcome{
-    background-color: #ffff008f;
-    height: 457px;
-       
+    background-image: url(../img/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 457px;  
+          
 }
+#welcome .welcome{
+    padding: 140px 0px;
+}
+#welcome .welcome h1{
+    font-size: 48px;
+    padding: 15px 0px;
+}
+#welcome .welcome h1 span{
+    color: #106aee;
+}
+#welcome .welcome h2{
+    font-size: 25px;
+}
+#welcome .welcome .btm{
+    padding: 45px 0px;
+}
+#welcome .welcome .primary-btn{
+    text-decoration: none;
+    background-color: #106aee;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 63px;
+    font-size: 17px;
+}
+#welcome .welcome .secondary-btn{
+    font-size: 20px;   
+    padding: 10px;
+    text-decoration: none;
+}
+#welcome .welcome .secondary-btn i{
+    position: relative;
+    color: #106aee;
+    font-size: 30px;
+    top: 4px;
+    padding-right: 5px;
+}
+
 
 /*HIGHLITS*/
 #highlights{
@@ -210,7 +289,7 @@ h1{
 
 /*TEAM*/
 #team{
-    background: #1e90ff66;
+    background-color: #f6f9fe;
     height: 696px;   
 }
 #team .section-title{
@@ -264,7 +343,6 @@ h1{
 
 /*PRICING*/
 #pricing{
-    background-color: #2f4f4f80;
     height: 748px;   
 }
 #pricing .section-title{
@@ -300,7 +378,7 @@ h1{
     background-color: #fff;
     text-align: center;
     flex-basis: 25%;
-    margin: 0px 12px;
+    margin: 0px 9px;
     border-radius: 8px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12)
 }
@@ -326,6 +404,7 @@ h1{
 }
 #pricing .section-content .f-item-middle .head{
     font-size: 35px;
+    color: #106eea;
 }
 #pricing .section-content .f-item-middle span{
     color: #bababa;
