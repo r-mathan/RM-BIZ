@@ -2,6 +2,7 @@ body{
     /*background-image: url(./img/full-web.png);*/
     background-size: 1536px;
     height: 8981px;
+    font-family: 'Open Sans', sans-serif;
 }
 .container{
     width: 1140px;
@@ -14,7 +15,7 @@ h1{
 
 /*QUICK LINKS*/
 #quick-links{
-    background-color: #106aee;
+    background-color: #f43939;
     color: #fff;
     height: 41.5px;  
 }
@@ -25,23 +26,39 @@ h1{
 #quick-links .f-item{
     padding: 10px 0px;
 }
-#quick-links .f-item i{
+#quick-links .size-a i{
     color: #fff;
     padding: 0px 9px;
     font-size: 14px;
+}
+#quick-links .size-b i{
+    color: #fff;
+    padding: 0px 9px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6)
+}
+#quick-links .size-b i:hover{
+    color: #fff;
+    padding: 0px 9px;
+    font-size: 14px;
+    transition: 800ms;
 }
 #quick-links .f-item a{
     padding: 0px 9px;
     text-decoration: none;
     color: #fff;
     font-size: 15px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
 }
+
 
 
 /*HEADER*/
 #header{
     background-color: #fff;
     height: 97px;   
+    font-family: 'Poppins', sans-serif;
 }
 #header .f-container{
     display: flex;
@@ -55,15 +72,26 @@ h1{
     font-size: 34px;
 }
 #header .f-item h1 span{
-    color: #106eea;
+    color: #f43939;
 }
 #header .f-item .nav-bar{
     display: flex;
 }
 #header .f-item .nav-bar .nav-item{
     margin: 0px 15px;
+    font-size: 17px;  
+}
+#header .f-item .nav-bar .nav-item:hover{
+    margin: 0px 15px;
     font-size: 17px;
-    border-bottom: 2px solid #106eea;
+    color: #f43939;
+    border-bottom: 3px solid #f43939;
+    padding-bottom: 2px;  
+    transition: 500ms; 
+}
+#header .f-item .nav-bar .nav-item a{
+    text-decoration: none;
+    color: #222222;
 }
 
 
@@ -76,7 +104,7 @@ h1{
 }
 #welcome .overley{
     content: "";
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(244, 57, 57, 0.3);
     position: relative;
     bottom: 0;
     top: 0;
@@ -89,33 +117,39 @@ h1{
 #welcome .welcome h1{
     font-size: 48px;
     padding: 15px 0px;
+    font-family: 'Poppins', sans-serif;
 }
 #welcome .welcome h1 span{
-    color: #106aee;
+    color: #f43939;
 }
 #welcome .welcome h2{
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 #welcome .welcome .btm{
     padding: 45px 0px;
 }
 #welcome .welcome .primary-btn{
+    text-transform: uppercase;
     text-decoration: none;
-    background-color: #106aee;
+    background-color: #f43939;
     color: white;
     border-radius: 7px;
-    padding: 10px 63px;
-    font-size: 18px;
+    padding: 14px 45px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 #welcome .welcome .secondary-btn{
-    font-size: 18px;   
+    font-size: 16px;
+    font-weight: 600;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: #222222;
+    
 }
 #welcome .welcome .secondary-btn i{
     position: relative;
-    color: #106aee;
+    color: #f43939;
     font-size: 30px;
     top: 5px;
     padding-right: 5px;
@@ -124,7 +158,7 @@ h1{
 
 /*HIGHLITS*/
 #highlights{
-    background-color: #9acd321f;
+    background-color: #fff;
     height: 383px;
 }
 #highlights .container{
@@ -136,27 +170,38 @@ h1{
     padding-left: 44px;   
 }
 #highlights .f-item{
-    background-color: white;
+    background-color: #fff;
+    color: #222222;
     flex-basis: 18%;
-    height:206px;
+    height: 206px;
+    line-height: 65px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 9px -5px;
+}
+#highlights .f-item:hover{
+    background-color: #f43939;
+    color: #fff;
+    flex-basis: 18%;
+    height: 206px;
+    line-height: 65px;
     padding: 25px 30px;
     border-radius: 8px;
     box-shadow: 0 0 9px -5px;
 }
 #highlights h1{
-    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 #highlights p{
+    font-size: 15px;
     line-height: 23px;
-    padding-top: 22px;
 }
-#highlights i{
-    padding: 10px 0px;
-    size: 25px;
+#highlights .f-item i{
+    font-size: 44px;
 }
 /*ABOUT*/
 #about{
-    background-color: #f6f9fe;
+    background-color: #fff1f1;
     height: 847px;   
 }  
 #about .section-title{
@@ -166,20 +211,27 @@ h1{
 #about .section-title h4{  
     padding: 7px 0px;
     margin: 10px 211px;
-    background-color: black;
+    background: #e7f1fd;
     border-radius: 15px;
-    color: #fff;
-    font-size: 15px;
+    color: #f43939;
+    font-size: 13px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }   
 #about .section-title h1{
-    font-size: 35px;
+    font-size: 32px;
     padding: 10px 0px;
+    color: #222222;
+    font-family: 'Roboto', sans-serif;  
 }
 #about .section-title p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 23px;
     padding-top: 13px;
+    color: #444444;
+}
+#about .section-title h1 span{
+    color: #f43939;
 }
 #about .section-content .f-container{
     display: flex;  
@@ -188,18 +240,20 @@ h1{
     flex-basis: 50%;
     margin: 10px;
     padding: 5px;
+    color: #444444;
 }
 #about .section-content .f-item img{
     max-width: 100%;
     height: auto;
 }
 #about .section-content .f-item h1{
-    font-size: 28px;
+    font-size: 26px;
     padding: 7px 2px;
     line-height: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 #about .section-content .f-item .italic{
-    font-size: 18.5px;
+    font-size: 16px;
     font-style: italic;
     padding: 7px 2px 27px 2px;
     line-height: 25px;
@@ -212,15 +266,17 @@ h1{
     padding: 4px 0px ;
 }
 #about .section-content .f-container .inner-flex .inner-flex-item  h2{
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 #about .section-content .f-container .inner-flex .inner-flex-item  p{
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
 }
 #about .section-content .f-container .inner-flex .inner-flex-item i{
     background-color: #fff;
+    color: #f43939;
     border-radius: 50%;
     padding: 16px;
     margin: 0px 15px 0px 0px;
@@ -229,9 +285,10 @@ h1{
     top: 16px;
 }
 #about .section-content .f-item .p-btm{
-    font-size: 19px;
+    font-size: 16px;
     line-height: 24px;
-    padding: 35px 0px 0px 2px
+    padding: 47px 0px 0px 2px;
+    font-weight: 400;
 }
 
 /*SKILLS*/
@@ -251,14 +308,19 @@ h1{
 }
 #skills .f-container h1{
     padding-bottom: 10px;
-    font-size: 13px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+#skills .f-container p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; 
 }
 #skills .f-container h2{
     border-bottom: 10px solid #e2eefd;
     margin-bottom: -10px;
 }
 #skills .f-container h3{
-    border-bottom: 10px solid #106eea;
+    border-bottom: 10px solid #f43939;;
 }
 #skills .f-container .inner-f{
     display: flex;
@@ -295,34 +357,39 @@ h1{
     padding: 40px 0px;
 }
 #statistics .f-container i{
-    background-color: #fff;
-    color: #106eea;
+    background-color: #f43939;
+    width: 30px;
+    padding: 11px;
+    text-align: center;
+    color: #fff;
     border-radius: 50%;
     border: 8px solid #fff;
-    font-size: 50px;
+    font-size: 30px;
 }
 #statistics .f-container .f-item-btm{
-    background-color: #f1f6fe;
+    background-color: #fff1f1;
     margin: -31px 15px;
-    padding: 35px 0px;
+    padding: 30px 0px;
 }
 #statistics .f-container h1{
-    color: #062b5b;
-    font-size: 38px;
-    padding: 3px 0px;
+    color: #ae7979;
+    font-size: 36px;
+    padding: 7px 0px;
+    font-weight: 500;
 }
 #statistics .f-container p{
     color: #444444;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: capitalize;
-    padding: 3px 0px;
+    padding: 5px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 
 /*CLIENT*/
 #client{
-    background-color: #ee82ee6e;
+    background-color: #fff1f1;
     height: 99px;   
 }
 #client .f-container{
@@ -338,8 +405,8 @@ h1{
 
 /*SERVICES*/
 #services{
-    background-color: #00ff7f4d;
-    height: 1042px;
+    background-color: #fff;
+    height: 1070px;
 }
 #services .section-title{
     text-align: center;
@@ -348,18 +415,25 @@ h1{
 #services .section-title h4{  
     padding: 7px 0px;
     margin: 10px 211px;
-    background-color: black;
+    background: #e7f1fd;
     border-radius: 15px;
-    color: white;
-    font-size: 15px;
+    color: #f43939;
+    font-size: 13px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }   
 #services .section-title h1{
-    font-size: 35px;
+    color: #222222;
+    font-size: 32px;
     padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#services .section-title h1 span{
+    color: #f43939;
 }
 #services .section-title p{
-    font-size: 18px;
+    color: #444444;
+    font-size: 16px;
     line-height: 23px;
     padding-top: 13px;
 }
@@ -372,22 +446,45 @@ h1{
     width: 347px;
     margin: 15px;
     padding: 85px 0px;
-    box-shadow: 0 0 5px -2px;
+    box-shadow: 0 0 3px -1px;
 }
-#services h4{
+#services .f-items:hover{
+    width: 347px;
+    margin: 15px;
+    padding: 85px 0px;
+}
+#services h2{
+    color: #222222;
+    text-transform: capitalize;
     padding: 10px;
     font-size: 24px;
 }
 #services h5{
-    padding: 10px;
-    font-size: 16px;
+    color: #444444;
+    padding: 16px 18px 0px 16px;
+    font-size: 14px;
+    line-height: 22px;
 }
 #services i{
-    padding: 10px;
+    background-color: #ffe5e5;
+    font-size: 28px;
+    padding: 13px;
     margin-bottom: 20px;
     width: 35px;
     border-radius: 5px;
-    border: 1px solid black;
+    color: #f43939;
+    border: 1px solid  #ffcfd6;
+}
+#services i:hover{
+    background-color: #ffe5e5;
+    font-size: 28px;
+    padding: 13px;
+    margin-bottom: 20px;
+    width: 35px;
+    border-radius: 5px;
+    color: #f43939;
+    border: 1px solid  #f43939;
+    transition: 500ms;
 }
 #services .section-content{
     text-align: center;
@@ -403,7 +500,7 @@ h1{
 }
 #testimonial .overley{
     content: "";
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(244, 57, 57, 0.3);
     position: relative;
     bottom: 0;
     top: 0;
@@ -412,7 +509,7 @@ h1{
 }
 /*PORTFOLIO*/
 #portfolio{
-    background-color: #a0522d7d;
+    background-color: #fff;
     height: 1497px;    
 }
 #portfolio .section-title{
@@ -422,25 +519,32 @@ h1{
 #portfolio .section-title h4{  
     padding: 7px 0px;
     margin: 10px 192px;
-    background-color: black;
+    background: #e7f1fd;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
     border-radius: 15px;
-    color: white;
-    font-size: 15px;
+    color: #f43939;
+    font-size: 13px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }   
 #portfolio .section-title h1{
-    font-size: 35px;
+    color: #222222;
+    font-size: 32px;
     padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#portfolio .section-title h1 span{
+    color: #f43939;
 }
 #portfolio .section-title p{
-    font-size: 18px;
+    color: #444444;
+    font-size: 16px;
     line-height: 23px;
     padding-top: 13px;
 }
 
 /*TEAM*/
 #team{
-    background-color: #f6f9fe;
+    background-color: #fff1f1;
     height: 696px;   
 }
 #team .section-title{
@@ -450,45 +554,54 @@ h1{
 #team .section-title h4{  
     padding: 7px 0px;
     margin: 10px 211px;
-    background-color: black;
+    background: #e7f1fd;
     border-radius: 15px;
-    color: white;
-    font-size: 15px;
+    color: #f43939;
+    font-size: 13px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }   
 #team .section-title h1{
-    font-size: 35px;
+    color: #222222;
+    font-size: 32px;
     padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#team .section-title h1 span{
+    color: #f43939;
 }
 #team .section-title p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 23px;
     padding-top: 13px;
+    color: #444444;
 }
 #team .f-container{
     display: flex;
-    
 }
 #team .f-items{
     background-color: white;
-    height: 365px;
-    margin: 10px;
-    border-radius: 8px;
+    height: 350px;
+    margin: 13px;
+    border-radius: 3px;
     box-shadow: 0px 0px 12px -6px;
 }
 #team img{
-    width: 280px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    width: 260px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
    
 }
 #team .section-content h1{
-    font-size: 23px;
-    padding: 18px 0px 8px 12px;
+    color: #222222;
+    font-size: 18px;
+    padding: 20px 0px 10px 15px;
+    font-family: 'Roboto', sans-serif;
 }
 #team .section-content h2{
+    color: #aaaaaa;
     font-size: 13px;
-    padding: 0px 0px 8px 12px;
+    padding: 0px 0px 15px 15px;
 }
 
 
@@ -503,18 +616,25 @@ h1{
 #pricing .section-title h4{  
     padding: 7px 0px;
     margin: 10px 211px;
-    background-color: black;
+    background: #e7f1fd;
     border-radius: 15px;
-    color: white;
-    font-size: 15px;
+    color: #f43939;
+    font-size: 13px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }   
 #pricing .section-title h1{
-    font-size: 35px;
+    color: #222222;
+    font-size: 32px;
     padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#pricing .section-title h1 span{
+    color: #f43939;
 }
 #pricing .section-title p{
-    font-size: 18px;
+    color: #444444;
+    font-size: 16px;
     line-height: 23px;
     padding-top: 13px;
 }
@@ -533,15 +653,20 @@ h1{
     border-radius: 8px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12)
 }
-#pricing .section-content .f-item-top{
+#pricing .section-content .f-item-top h1{
+    font-size: 16px;
+    
+}
+#pricing .section-content .f-item-top{  
+    color: #777777;
     padding: 17px 0px;
     background-color: #f8f8f8;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
 #pricing .header{
-    background-color: #106eea !important;
-    color: #fff;
+    background-color: #f43939 !important;
+    color: #fff !important;
 }
 #pricing .section-content .f-item-middle{
     padding: 36px 0px;
@@ -549,17 +674,25 @@ h1{
 }
 #pricing .section-content .f-item-middle ul{
     list-style-type: none;
+    font-size: 14px;
+    color: #444444;
 }
 #pricing .section-content .f-item-middle sup{
     font-size: 20px;
+
 }
 #pricing .section-content .f-item-middle .head{
-    font-size: 35px;
-    color: #106eea;
+    font-size: 36px;
+    color: #f43939;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
 }
 #pricing .section-content .f-item-middle span{
     color: #bababa;
     font-size: 16px;
+    padding-left: 8px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
 }
 #pricing .section-content .f-item-middle .line-through{
     color: #bababa;
@@ -575,15 +708,18 @@ h1{
 #pricing .section-content .f-item-bottom a{
     padding: 10px 25px;
     color: #fff;
-    background-color: #106eea;
+    background-color: #f43939;
     text-decoration: none;
     border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
 }
 
 
 /*F.A.Q*/
 #faq{
-    background-color: #d2b48c82;
+    background-color: #fff1f1;
     height: 685px;
 }
 #faq .section-title{
@@ -593,27 +729,30 @@ h1{
 #faq .section-title h4{  
     padding: 7px 0px;
     margin: 10px 211px;
-    background-color: black;
+    background: #e7f1fd;
     border-radius: 15px;
-    color: white;
-    font-size: 15px;
+    color: #f43939;
+    font-size: 13px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }   
 #faq .section-title h1{
-    font-size: 35px;
-    padding: 10px 0px;
+    color: #222222;
+    font-size: 32px;
+    padding: 17px 0px 22px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#faq .section-title h1 span{
+    color: #f43939;
 }
 #faq .section-title p{
-    font-size: 18px;
+    color: #444444;
+    font-size: 16px;
     line-height: 23px;
 }
-#faq .section-content{
-    
-}
 #faq ul{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 45px;
-    padding-top: 20px;
     list-style-type: none;
 }
 #faq i{
@@ -632,18 +771,23 @@ h1{
 #contact .section-title h4{  
     padding: 7px 0px;
     margin: 10px 211px;
-    background-color: black;
+    background: #e7f1fd;
     border-radius: 15px;
-    color: white;
-    font-size: 15px;
+    color: #f43939;
+    font-size: 13px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }   
 #contact .section-title h1{
-    font-size: 35px;
+    color: #f43939;
+    font-size: 32px;
     padding: 10px 0px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
 }
 #contact .section-title p{
-    font-size: 18px;
+    color: #444444;
+    font-size: 16px;
     line-height: 23px;
     padding-top: 13px;
 }
@@ -655,19 +799,32 @@ h1{
     box-shadow: 0px 0px 31px -18px #444444;
     text-align: center;
     line-height: 33px;
-    padding: 13px 0px;
+    padding: 20px 0px;
     margin: 10px;
     background-color: #fff;
 }
 #contact .section-content .f-container-1 .size-a{
     flex-basis: 25%;
 }
-#contact .section-content .f-container-1 .f-item i{
-    border: 1px dotted #106aee;
-    border-radius: 50%;
-    padding: 10px 12px;
+#contact .section-content h1{
+    font-size: 20px;
+    color: #777777;
+    padding: 9px 0px 2px 0px;
+    font-family: "Roboto", sans-serif;
 }
-
+#contact .section-content p{
+    font-size: 14px;
+    color: #444444;
+}
+#contact .section-content .f-container-1 .f-item i{
+    color: #f43939;;
+    border: 2px dotted #f43939;
+    border-radius: 50%;
+    text-align: center;
+    width: 24px;
+    padding: 11px;
+    font-size: 24px;
+}
 #contact .section-content .f-container-2{
     display: flex;
     height: 430px;
@@ -693,12 +850,15 @@ h1{
     padding-top: 10px;
 }
 #contact .section-content .f-container-2 .f-item input{
+    border-color: #ffcfd6;
+    color: black;
     width: 93%;
     padding: 12px 0px;
     margin: 10px 17px;
     opacity: 40%;
 }
 #contact .section-content .f-container-2 .f-item textarea{
+    color: black;
     width: 93%;
     margin: 10px 17px 28px 17px;
     padding: 74px 2px;
@@ -710,10 +870,10 @@ h1{
 }
 #contact .section-content .f-container-2 .f-item a{
     text-decoration: none;
-    background-color: #106eea;
+    background-color: #f43939;
     color: #fff;
     padding: 10px 21px;
-    margin: 0px 209px;
+    margin: 0px 200px;
     font-size: 17px;
     border-radius: 5px;
 }
@@ -727,20 +887,22 @@ h1{
 
 /*NEWS LETTER*/
 #news-letter{
-    background-color: #a0522d70;
+    background-color: #fff1f1;
     height: 246px;    
 }
 #news-letter .section-nl{
     text-align: center;
-    padding: 30px 0px;
-    line-height: 52px;
+    padding: 42px 0px;
+    line-height: 50px;
 }
 #news-letter h1{
-    font-size: 29px;
+    font-size: 24px;
+    color: #444444;
+    font-family: "Roboto", sans-serif;
 }
 #news-letter h2{
-    font-size: 17.5px;
-    padding-bottom: 10px;
+    font-size: 15px;
+    color: #777777;
 }
 #news-letter form{
     font-size: 20px;
@@ -748,22 +910,26 @@ h1{
 }
 #news-letter input{
     border: 0px;
-    padding: 15px 160px;
+    padding: 13px 160px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    position: relative;
+    top: 2.3px;
+    
 }
 #news-letter a{
+    font-size: 16px;
     text-decoration: none;
     color: blanchedalmond;
-    background-color: black;
-    padding: 10px 21px 15px 21px;
+    background-color: #f43939;
+    padding: 7px 21px 13px 21px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 /*FOOTER*/
 #footer{
-    background-color: #4b008273;
+    background-color: #fff;
 }
 #footer .f-container{
     display: flex;
@@ -776,35 +942,60 @@ h1{
     list-style-type: none;
 }
 #footer .size-a ul li{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 23px;
+    color: #777777;
+}
+#footer .size-a ul li b{
+    color: #777777;
 }
 #footer .size-b ul li{
-    font-size: 16px;
-    line-height: 40px;
+    font-size: 14px;
+    color: #777777;
+    line-height: 38px;
     text-transform: capitalize;
 }
 #footer h1{
     font-size: 24px;
+    color: #444444;
     padding-bottom: 9px;
+    font-family: "Roboto", sans-serif;
+}
+#footer h1 span{
+    color: #f43939;
+    font-size: 24px;
+    padding-bottom: 9px;
+    font-family: "Roboto", sans-serif;
 }
 #footer h2{
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 8px;
     text-transform: capitalize;
+    color: #444444;
 }
 #footer p{
     padding: 9px 0px 29px 0px;
     line-height: 25px;
+    font-size: 14px;
+    color: #777777;
+    font-family: "Roboto", sans-serif;
 }
-#footer i{
+#footer .size-b i{
     padding-right: 6px;
+    font-size: 10px;
+}
+#footer .social-links i{
+    border-radius: 5px;
+    background-color: #f43939;
+    color: #fff;
+    text-align: center;
+    width: 15px;
+    padding: 10px;
 }
 
 /*LEGAL*/
 #legal{ 
-    background-color: #ffa50073;
-   
+    background-color: #fff1f1;  
 }
 #legal .f-container{
     display: flex;
@@ -812,4 +1003,15 @@ h1{
 }
 #legal .f-item{
     padding: 35px 0px;
+    color: #444444;
+}
+#legal .f-item a{
+    color: #f43939;
+    text-decoration: none;
+}
+#legal .size-a{
+    font-size: 14px;
+}
+#legal .size-b{
+    font-size: 13px;
 }
