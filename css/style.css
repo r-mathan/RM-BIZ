@@ -177,6 +177,7 @@ h1{
     line-height: 65px;
     padding: 25px 30px;
     border-radius: 8px;
+    border: 2px solid #f43939;
     box-shadow: 0 0 9px -5px;
 }
 #highlights .f-item:hover{
@@ -187,6 +188,7 @@ h1{
     line-height: 65px;
     padding: 25px 30px;
     border-radius: 8px;
+    border: 2px solid #fff;
     box-shadow: 0 0 9px -5px;
 }
 #highlights h1{
